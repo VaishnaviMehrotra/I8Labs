@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Web Page</title>
+  
+</head>
+<body>
+ 
+    <div class="header">
+       <div class="container">
+        <div class="logo">
+            <p><span>Bank</span></p>
+        </div>
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="#" class="active">Our Offers</a>
+                </li>
+                <li>
+                    <a href="#">Bank</a>
+                </li>
+                <li class="about">
+                    <a href="#">About<i></i></a> 
+                    <ul class="nav-drop">
+                        <li>
+                            <a href="#">How it Work</a>
+                        </li>
+                        <li>
+                            <a href="#">Deposit Guarantee</a>
+                        </li>
+                        <li>
+                            <a href="#">About Raisin</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Become a Partner</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+            </ul>
+
+        </div>
+    
+        <div class="button">
+            <ul>
+                <li class="account">
+                  <a href="#">My Account</a>
+                </li>
+                <li class="register">
+                 <a href="#">Register</a>
+                </li>
+            </ul>
+        </div>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        
+       </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.menu-toggle').click(function(){
+              $('.menu-toggle').toggleClass('active')
+              $('.nav').toggleClass('active')
+              $('.button').toggleClass('active')
+            })
+        })
+     </script>
+     <div class="content">
+       <div class="saving-account">
+         <div class="container">
+           <h1>Savings accounts</h1>
+           <p>We've made it easy to find the right savings account.
+              All you need to do is keep your needs in mind. With Raisin,
+              you have exclusive access to higher interest rates from banks across Europe.
+              Save yourself time and money by comparing offers online.</p>
+        </div>
+    </div>
+    <div class="filter">
+        <div class="container">
+            <div class="filter-box">
+                <div class="box-1">
+                    <p class="box-1-content">
+                    All term deposits
+                    </p>
+                    <p>From across Europe</p>
+                </div>
+            </div>
+            <div class="filter-box">
+                <div class="box-1">
+                    <p class="box-1-content">
+                    Easy Access
+                    </p>
+                    <p>Deposits with easy access</p>
+                </div>
+            </div>
+            <div class="filter-box">
+                <div class="box-1">
+                    <p class="box-1-content">
+                    Foreign Currency
+                    </p>
+                    <p>Foreign currency term deposits</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="filter-product">
+        <div class="filter-header">
+            <div class="container">
+                <div class="filter-type">
+                    <form>
+                        <div class="type">
+                            <label>Team</label>
+                            <select class="form-selection">
+                                <option>Show all (22)</option>
+                                <option>Less than a year (4)</option>
+                                <option>1 year(3)</option>
+                                <option>2 year(3)</option>
+                                <option>3 year(2)</option>
+                                <option>4 year(1)</option>
+                                <option>5 year(1)</option>
+                                <option>6 year(1)</option>
+                                <option>7 year(1)</option>
+                                <option>8 year(1)</option>
+                                <option>9 year(1)</option>
+                                <option>10 year(1)</option>
+                                
+                            </select>
+                        </div>
+                        <div class="type" style="margin-left: 1em;">
+                            <label>Investment amount</label>
+                            <input type="text" value="50,000" style="margin-left: 1em;">
+                        </div>
+                        <div class="from-wrapper">
+                            <div class="type">
+                                <span>
+                                    <label class="checkbox">
+                                      <span class="label-element">
+                                        <input type="checkbox" class="checkbox-element">
+                                        
+                                      </span>
+                                      Easy access (1)
+                                      <i class="fas fa-question-circle"></i>
+                                    </label>
+
+                                </span>
+                            </div>
+                            <div class="type">
+                                <span>
+                                    <label class="checkbox">
+                                      <span class="label-element">
+                                        <input type="checkbox" class="checkbox-element">
+                                        
+                                      </span>
+                                    Only ERU offers (3)
+                                      <i class="fas fa-question-circle"></i>
+                                    </label>
+
+                                </span>
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+    <div class="main-content">
+        <div class="offer">
+           <div class="container">
+               <div class="offer-search">
+                   <div class="offer-counter">
+                       <span>3 offer match your search</span>
+                   </div>
+               </div>
+               <div class="offer-header">
+                   <div class="offer-header-nav">
+                       <p>Interest</p>
+                       <div class="filter-sign">
+                        <i class="fas fa-sort"></i>
+                       </div>
+
+                   </div>
+                   <div class="offer-header-nav">
+                    <p>Term</p>
+            
+
+                </div>
+                <div class="offer-header-nav">
+                    <p>Bank</p>
+                    <div class="filter-sign">
+                     <i class="fas fa-sort"></i>
+                    </div>
+
+                </div>
+                <div class="offer-header-nav">
+                    <p>country</p>
+                    <div class="filter-sign">
+                     <i class="fas fa-sort"></i>
+                    </div>
+
+                </div>
+                <div class="offer-header-nav">
+                    <p>Interest + Bonus*</p>
+                    
+
+                </div>
+
+               </div>
+               <div class="product-item">
+                   <div class="item">
+                       <div class="product-rate">
+                        <p>1.00</p>
+                        <div class="interest-rate">
+                            <p>%</p><br />
+                            <p>p.a
+                             <i class="fas fa-question-circle"></i> 
+                            </p>
+                        </div>
+                       </div>
+                       
+                        <div class="product-rate year">
+                         <p>1 year</p>
+                        </div>
+                    
+                    <div class="product-rate bank">
+                        <img src="J&T.png">
+                    </div>
+                    <div class="product-rate" style="padding-right: 7px;">
+                        <div>
+                            <span>
+                                Czech Republic(AA-)
+                            </span><br />
+                            <i class="fas fa-question-circle"></i> 
+                        </div>
+                        <div >
+                            in EUR
+                        </div>
+                    </div>
+                    <div class="product-rate bouns">
+                        <div>
+                            <span>
+                               +&nbsp500
+                            </span><br />
+                            <span>
+                                +&nbsp50 Bouns*
+                             </span><br />
+                             
+                        </div>
+                    </div>
+                    <div class="product-rate apply">
+                        <a class="apply-btn">Apply Now</a>
+                    </div>
+                 </div>
+                  <div class="offer-details">
+                    <ul>
+                      <li>Product Details</li>
+                      <li style="color: #d7d7d7;">Bank</li>
+                      <li style="color: #d7d7d7;">Deposit guarantee</li>
+                     
+                    </ul>  
+                 </div>
+               </div> 
+               <div class="product-item">
+                <div class="item">
+                    <div class="product-rate">
+                     <p>0.40</p>
+                     <div class="interest-rate">
+                         <p>%</p><br />
+                         <p>p.a
+                          <i class="fas fa-question-circle"></i> 
+                         </p>
+                     </div>
+                    </div>
+                    
+                    
+                     <div class="product-rate year">
+                      <p>1 year</p>
+                     </div>
+                 
+                 <div class="product-rate bank">
+                     <img src="euram-bank.png" style="max-height:45px;">
+                 </div>
+                 <div class="product-rate" style="padding-right: 4em;">
+                     <div>
+                         <span>
+                             Austria(AA+)
+                         </span><br />
+                         <i class="fas fa-question-circle"></i> 
+                     </div>
+                     <div >
+                         in EUR
+                     </div>
+                 </div>
+                 <div class="product-rate bouns">
+                     <div>
+                         <span>
+                            +&nbsp200
+                         </span><br />
+                         <span>
+                             +&nbsp50 Bouns*
+                          </span><br />
+                          
+                     </div>
+                 </div>
+                 <div class="product-rate apply">
+                     <a class="apply-btn">Apply Now</a>
+                 </div>
+              </div>
+              <div class="offer-details">
+                <ul>
+                  <li>Product Details</li>
+                  <li style="color: #d7d7d7;">Bank</li>
+                  <li style="color: #d7d7d7;">Deposit guarantee</li>
+                 
+                </ul>  
+             </div>
+            </div> 
+            <div class="product-item">
+                <div class="item">
+                    <div class="product-rate">
+                     <p>0.10</p>
+                     <div class="interest-rate">
+                         <p>%</p><br />
+                         <p>p.a
+                          <i class="fas fa-question-circle"></i> 
+                         </p>
+                     </div>
+                    </div>
+                    
+                     <div class="product-rate year">
+                      <p>1 year</p>
+                     </div>
+                 
+                 <div class="product-rate bank" style="padding-right: 3.5em;">
+                     <img src="alior-bank.png" style="max-height:50px;">
+                 </div>
+                 <div class="product-rate country">
+                     <div>
+                         <span>
+                             Poland(A-)
+                         </span><br />
+                         <i class="fas fa-question-circle"></i> 
+                     </div>
+                     <div >
+                         in EUR
+                     </div>
+                 </div>
+                 <div class="product-rate bouns">
+                     <div>
+                         <span>
+                            +&nbsp51
+                         </span><br />
+                         <span>
+                             +&nbsp50 Bouns*
+                          </span><br />
+                          
+                     </div>
+                 </div>
+                 <div class="product-rate apply">
+                     <a class="apply-btn">Apply Now</a>
+                 </div>
+              </div>
+              <div class="offer-details">
+                <ul>
+                  <li>Product Details</li>
+                  <li style="color: #d7d7d7;">Bank</li>
+                  <li style="color: #d7d7d7;">Deposit guarantee</li>
+                 
+                </ul>  
+             </div>
+            </div> 
+            <div class="note">
+                *<span>Receive our Welcome Bouns - available for all new Raisin customers.
+                    Depending on the bank's offer and calculation method, the calculated
+                    interest shown above may differ from the actual interest to be paid out.
+                </span>
+            </div>
+        </div>
+        
+    </div>
+
+        
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                 <h5>Do you have any  questions?</h5>
+                 <ul>
+                     <li><a href="tel:+4930770191295">
+                        <i class="fas fa-phone-alt"></i>
+                         +49 30 770 191 295
+                     </a>
+                    (Mo - Fr 8:30 AM to 4:30 PM (CET))
+                    </li>
+                    <li>
+                        <a href="mailto:service@raisin.com">
+                            <i class="fa fa-envelope"></i>
+                        service@raisin.com  
+                        </a>
+                    </li>
+                 </ul>
+                </div>
+                <div class="social-link">
+                    <p>Follow us</p>
+                    <a href="#" class="facebook">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="#" class="linkedin">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="twitter">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-main-content">
+               <div class="company col-25">
+                   <h5>Company & Team</h5>
+                   <ul>
+                       <li><a href="#">About Raisin</a></li>
+                       <li><a href="#">Press</a></li>
+                       <li><a href="#">Careers</a></li>
+                       <li><a href="#">Welcome Bonus</a></li>
+                       <li><a href="#">Refer a Friend</a></li>
+                       <li><a href="#">Raisin Bank</a></li>
+                   </ul>
+               </div> 
+               <div class="company col-25">
+                <h5>Our Partner Banks</h5>
+                <ul>
+                    <li><a href="#">Alior BAnk</a></li>
+                    <li><a href="#">Euram Bank</a></li>
+                    <li><a href="#">FirstSave Euro</a></li>
+                    <li><a href="#">J&T Banka</a></li>
+                </ul>
+            </div> 
+            <div class="company col-25">
+                <h5>Investment Information</h5>
+                <ul>
+                    <li><a href="#">Best Rates</a></li>
+                    <li><a href="#">Best Savings Accounts</a></li>
+                    <li><a href="#">Fixed RAte Bounds</a></li>
+                    <li><a href="#">Interest Rates</a></li>
+                </ul>
+            </div> 
+            <div class="company col-25">
+                <h5>Help & Contact</h5>
+                <ul>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Affiliate Partnerships</a></li>
+                    <li><a href="#">Complaint Management</a></li>
+                </ul>
+            </div> 
+            </div>
+            <div class="footer-policy">
+                <p>Privacy Policy</p>
+                <p>IT Security</p>
+                <p>Terms and Conditions</p>
+                <p>Site Information</p>
+                <p>Privacy Settings</p>
+                <p>@2020 Raisin GmbH,Berlin</p>
+            </div>
+            <div class="footer-disclaimer">
+             <p>All interest rates displayed are Annual Equivalent Rates (AER), unless otherwise 
+                explicitly indicated. The AER illustrates what the interest rate would be if interest
+                was paid and compounded once a year. This allows individuals to
+                compare more easily what return they can expect from their savings over time.</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
